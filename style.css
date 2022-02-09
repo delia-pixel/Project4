@@ -6,15 +6,15 @@
 }
 main{
     min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    background: linear-gradient(to right top, #29165f, #5788f5);
     display: flex; /* rendre le contenant flexible*/
     align-items: center; /* aligner les éléments au centre, sorte d'alignement vertical*/
     justify-content: center;/* aligner les éléments contenus au centre, sorte d'alignement vertical*/
 }
 .glass{
     background:white ;
-    min-height:60vh;
-    width: 80%;
+    min-height:80vh;
+    width: 60%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
     border-radius: 2rem;
     z-index: 2; /* the z-index the most greater a head so that the other elements will go under*/
@@ -24,19 +24,21 @@ main{
 
 h1{
     color: #426696;
-    font-weight: 600;
+
     font-size: 3rem;
+    font-weight: bold;
     opacity: 0.8;
 }
 h2,
 p{
     color: #658ec6;
     font-weight: 500;
+    font-weight: bold;
     opacity: 0.9;
 }
 h3{
     color: #426696;
-    font-weight: 600;
+    font-weight: bold;
     opacity: 0.8;
 }
 
@@ -52,7 +54,7 @@ h3{
 .circle1{
     top: 5%;
     right: 15%;
-    background: #d74b6c;
+    background: #76d3f3;
 }
 .circle2{
     bottom: 5%;
@@ -107,6 +109,7 @@ h3{
     border-radius: 2rem;
     border: none;
     width: 50%;
+    height: 30%;
 }
 .games{
     margin:5rem;
@@ -124,7 +127,7 @@ display: flex;
     justify-content: space-between;
 }
 .progress{
-    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    background: linear-gradient(to right top, #29165f, #5788f5);
     width: 100%;
     height: 25%;
     border-radius: 1rem;
@@ -146,7 +149,7 @@ display: flex;
 }
 .percentage{
     font-weight: bold;
-    background: linear-gradient(to right top, #16ca9c, #6cdbed);
+    background: linear-gradient(to right top, #29165f, #5788f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
